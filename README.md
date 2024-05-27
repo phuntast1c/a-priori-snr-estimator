@@ -1,5 +1,4 @@
-# Temporal Convolutional Network-Based Speech Presence Probability Estimation
-
+# Temporal Convolutional Network-Based SNR Estimation
 ## Description
 This repository contains the code to train and test a temporal convolutional network (TCN)-based a-priori signal-to-noise ratio (SNR) estimator.
 The TCN maps log-magnitude and phase features to an estimate of the compressed SNR in [0, 1].
