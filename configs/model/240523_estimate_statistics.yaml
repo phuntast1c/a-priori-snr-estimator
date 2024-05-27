@@ -1,0 +1,9 @@
+class_path: a_priori_snr.models.estimate_mean_variance.MeanVarianceEstimator
+init_args:
+  metrics_test: ""
+  metrics_val: ""
+  loss: MagnitudeAbsoluteError
+  frame_length: 1024
+  shift_length: 512
+  window_type: hann
+  fs: 16000
