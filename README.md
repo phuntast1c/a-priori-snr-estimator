@@ -15,7 +15,7 @@ First, install dependencies:
 git clone https://github.com/phuntast1c/a_priori_snr_tcn
 
 # install and activate conda environment
-cd a_priori_snr_tcn
+cd a-priori-snr-estimator
 conda env create -f environment.yml
 conda activate a_priori_snr_estimator
 ```

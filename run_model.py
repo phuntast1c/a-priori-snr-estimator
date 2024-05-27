@@ -80,7 +80,6 @@ def main():
         wav_data = ta.functional.resample(wav_data, orig_freq=fs_wav, new_freq=model.fs)
 
     wav_data = wav_data.unsqueeze(0)
-    print(wav_data.shape)
     inp = {
         "input": wav_data,
     }
