@@ -12,7 +12,7 @@ First, install dependencies:
 
 ```bash
 # clone project
-git clone https://github.com/phuntast1c/a_priori_snr_tcn
+git clone https://github.com/phuntast1c/a-priori-snr-estimator
 
 # install and activate conda environment
 cd a-priori-snr-estimator
@@ -28,6 +28,11 @@ These models were trained on the reverberant ICASSP 2021 Deep Noise Suppression 
 
 ```bash
 python run_model.py --input test.wav --output test.mat
+```
+or, for the second mentioned model, as:
+
+```bash
+python run_model.py --input test.wav --output test.mat --use_freq_subset
 ```
 
 When different settings or a different dataset are desired, the SNR estimator can be trained using the PyTorch Lightning (PL) command-line interface, preferably with an equipped NVIDIA GPU. The available model arguments can be printed using:
